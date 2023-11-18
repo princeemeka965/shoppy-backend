@@ -9,11 +9,29 @@ const createAccount = (async (req, res) => {
     }
     catch (error) {
         console.log(error)
+        res.status(500).json({ message: 'Invalid Username or Password' })
+    }
+});
+
+const login = (async (req, res) => {
+    const { username, password } = req.body;
+
+    try {
+        const userData = await User.findAll({ where: { username: username, password: password } });
+        if (userData.length > 0) {
+            return res.status(200).json({ message: 'Logged In', userData })
+        }
+        else {
+            res.status(500).json({ message: 'Invalid Username or Password' })
+        }
+    }
+    catch (error) {
+        console.log(error)
         res.status(500).json(error)
     }
-
 })
 
 module.exports = {
-    createAccount
+    createAccount,
+    login
 }
