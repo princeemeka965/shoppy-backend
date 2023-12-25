@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "sql5663126",
-    "password": "R2h9DDAU4m",
-    "database": "sql5663126",
-    "host": "sql5.freesqldatabase.com",
+    "username": "musicorm_root",
+    "password": "ajZeapyv_6@xZh6",
+    "database": "musicorm",
+    "host": "db4free.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "sql5663126",
-    "password": "R2h9DDAU4m",
-    "database": "sql5663126",
-    "host": "sql5.freesqldatabase.com",
+    "username": "musicorm_root",
+    "password": "ajZeapyv_6@xZh6",
+    "database": "musicorm",
+    "host": "db4free.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "sql5663126",
-    "password": "R2h9DDAU4m",
-    "database": "sql5663126",
-    "host": "sql5.freesqldatabase.com",
+    "username": "musicorm_root",
+    "password": "ajZeapyv_6@xZh6",
+    "database": "musicorm",
+    "host": "db4free.net",
     "dialect": "mysql"
   }
 }

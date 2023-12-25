@@ -1,8 +1,10 @@
+const { default: axios } = require("axios");
+
 const getTracks = (async (req, res) => {
     const id = req.params.id;
     
     try {
-        const response = await fetch(`https://api.deezer.com/artist/${id}/top?limit=50`);
+        const response = await axios.get(`https://api.deezer.com/artist/${id}/top?limit=50`);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
