@@ -14,6 +14,8 @@ app.use('/authenticate/', authenticate)
 
 app.use('/artiste/', artisteTracks)
 
+app.use('/ai/', shoppingAi)
+
 
 app.listen({ port: 5000 }, async () => {
     await sequelize.authenticate();
