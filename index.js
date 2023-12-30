@@ -3,6 +3,7 @@ const cors = require('cors');
 const { sequelize } = require("./models");
 const authenticate = require("./routes/authentication.js")
 const artisteTracks = require("./routes/artisteTracks.js")
+const shoppingAi = require("./routes/shoppingAi.js")
 
 const app = express();
 
