@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "sql3673600",
-    "password": "FiAhcQxcLx",
-    "database": "sql3673600",
-    "host": "sql3.freesqldatabase.com",
+    "username": "sql3676561",
+    "password": "EXpZBQnBnt",
+    "database": "sql3676561",
+    "host": "sql3.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "sql3673600",
-    "password": "FiAhcQxcLx",
-    "database": "sql3673600",
-    "host": "sql3.freesqldatabase.com",
+    "username": "sql3676561",
+    "password": "EXpZBQnBnt",
+    "database": "sql3676561",
+    "host": "sql3.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "sql3673600",
-    "password": "FiAhcQxcLx",
-    "database": "sql3673600",
-    "host": "sql3.freesqldatabase.com",
+    "username": "sql3676561",
+    "password": "EXpZBQnBnt",
+    "database": "sql3676561",
+    "host": "sql3.freemysqlhosting.net",
     "dialect": "mysql"
   }
 }
