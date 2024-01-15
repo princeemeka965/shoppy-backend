@@ -3,7 +3,6 @@ const cors = require('cors');
 const { sequelize } = require("./models");
 const authenticate = require("./routes/authentication.js")
 const artisteTracks = require("./routes/artisteTracks.js")
-const shoppingAi = require("./routes/shoppingAi.js")
 
 const app = express();
 
@@ -14,8 +13,6 @@ app.use(cors({ origin: "*" }));
 app.use('/authenticate/', authenticate)
 
 app.use('/artiste/', artisteTracks)
-
-app.use('/ai/', shoppingAi)
 
 
 app.listen({ port: 5000 }, async () => {
